@@ -1,6 +1,6 @@
 <%
   Set fs = Server.CreateObject("Scripting.FileSystemObject")
-  Set objFile = fs.OpenTextFile("upload\test.txt", 8, true)
+  Set objFile = fs.OpenTextFile("./upload/test.txt", 8, true)
 
   member_name = request("member_name")
   memtype_no = request("memtype_no")
