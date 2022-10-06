@@ -1,6 +1,6 @@
 <%
   Set fs = Server.CreateObject("Scripting.FileSystemObject")
-  Set objFile = fs.OpenTextFile("c:\temp\test\test.txt", 8, true)
+  Set objFile = fs.OpenTextFile(".\upload\test.txt", 8, true)
 
   member_name = request("member_name")
   memtype_no = request("memtype_no")
@@ -26,9 +26,9 @@
 
 <HTML>
 <BODY>
-<br><center><font face="╣╦©Р" size="2">
-<h2>х╦©Ь╟║ют</h2>
-х╦©Ь ╟║ютюл ©о╥А╣г╬З╫ю╢о╢ы.
+<br><center><font face="К▐▀Л⌡─" size="2">
+<h2>М ▄Л⌡░Й╟─Л·┘</h2>
+М ▄Л⌡░ Й╟─Л·┘Л²╢ Л≥└Кё▄К░≤Л≈┬Л┼╣К▀┬К▀╓.
 </font></center></BODY>
 </HTML>
 
